@@ -5,6 +5,6 @@
 
 以下是本小组的分工说明：  
 
-<img width="975" height="547" alt="8ff7b4d9101158a2f65be4b6fd1dceec" src="https://github.com/user-attachments/assets/68590a45-567a-4d84-8546-0304efef7d1b" />
+<img width="975" height="479" alt="70e9a5c7a5981bdb2a67e69f41f2935a" src="https://github.com/user-attachments/assets/c8c583d1-b67c-4a1c-a4ee-7b03b2ef351d" />
 
 
