@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "datasets": {
+    "mosxav": {
+      "train": {
+        "image_root": "../data/MOSXAV/train-pre/JPEGImages_Static",
+        "mask_root": "../data/MOSXAV/train-pre/MOSXAV_Static_Dataset",
+        "split_file": "../data/MOSXAV/train-pre/train.txt"
+      },
+      "test": {
+        "image_root": "../data/MOSXAV/test-pre/JPEGImages_Static",
+        "mask_root": "../data/MOSXAV/test-pre/MOSXAV_Static_Dataset",
+        "split_file": "../data/MOSXAV/test-pre/test.txt"
+      }
+    },
+    "ica_nj": {
+      "train": {
+        "image_root": "../data/ICA_NJ/train/ICA_PNG",
+        "mask_root": "../data/ICA_NJ/train/label"
+      },
+      "test": {
+        "image_root": "../data/ICA_NJ/test/ICA_PNG",
+        "mask_root": "../data/ICA_NJ/test/label"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+﻿case,source_mask,centerline_length_pixel,mean_apparent_diameter_pixel,minimum_apparent_diameter_pixel,maximum_apparent_diameter_pixel,minimum_lumen_diameter_mld_pixel,reference_vessel_diameter_rvd_pixel,maximum_diameter_stenosis_percent,lesion_count
+v09,results\postprocessing\v09\00046.png,566.4873734152931,11.55849431981944,2.9177699089050293,19.57706642150879,2.9177699089050293,9.536569513926358,69.40440789904402,2
+v11,results\postprocessing\v11\00052.png,557.3158005400394,10.873425493043722,3.2110605239868164,15.165888786315918,3.2110605239868164,13.230802027100058,75.73041666401066,2

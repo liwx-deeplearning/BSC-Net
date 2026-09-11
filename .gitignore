@@ -1,0 +1,14 @@
+# Python and generated outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+outputs/
+
+# Dataset images, labels and weights are included in this reproducibility package.
+# `checkpoints/*.pt` are covered by .gitattributes and must be committed via Git LFS.
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

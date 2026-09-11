@@ -1,0 +1,20 @@
+{
+  "support_threshold": 0.18,
+  "short_gap_px": 12,
+  "medium_gap_px": 40,
+  "max_growth_px": 50,
+  "max_angle_deg": 50.0,
+  "max_area_growth_ratio": 0.1,
+  "min_path_mean_probability": 0.48,
+  "min_path_supported_fraction": 0.78,
+  "tangent_length_px": 7,
+  "path_margin_px": 8,
+  "maximum_repair_width": 9,
+  "adaptive_repair_width": true,
+  "repair_width_scale": 1.0,
+  "lateral_support_ratio": 0.65,
+  "minimum_isolated_component_area": 32,
+  "enable_endpoint_to_segment": true,
+  "enable_omnidirectional_orphan_link": false,
+  "enable_one_sided_growth": false
+}

@@ -1,0 +1,30 @@
+{
+  "case": "v09",
+  "source_mask": "results\\postprocessing\\v09\\00046.png",
+  "centerline_length_pixel": 566.4873734152931,
+  "mean_apparent_diameter_pixel": 11.55849431981944,
+  "minimum_apparent_diameter_pixel": 2.9177699089050293,
+  "maximum_apparent_diameter_pixel": 19.57706642150879,
+  "minimum_lumen_diameter_mld_pixel": 2.9177699089050293,
+  "reference_vessel_diameter_rvd_pixel": 9.536569513926358,
+  "maximum_diameter_stenosis_percent": 69.40440789904402,
+  "lesion_count": 2,
+  "lesions": [
+    {
+      "start_index": 153,
+      "end_index": 158,
+      "peak_index": 156,
+      "minimum_lumen_diameter_mld_pixel": 9.979393005371094,
+      "reference_vessel_diameter_rvd_pixel": 13.048476934024086,
+      "maximum_diameter_stenosis_percent": 23.520629604289773
+    },
+    {
+      "start_index": 452,
+      "end_index": 494,
+      "peak_index": 463,
+      "minimum_lumen_diameter_mld_pixel": 2.9177699089050293,
+      "reference_vessel_diameter_rvd_pixel": 9.536569513926358,
+      "maximum_diameter_stenosis_percent": 69.40440789904402
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Reproduced experiment environment: Python 3.10.20, PyTorch 2.7.1+cu128.
+# Install the PyTorch build matching your CUDA runtime first; see README.md.
+torch==2.7.1
+numpy==1.24.4
+opencv-python==4.8.1.78
+scipy==1.10.1
+scikit-image==0.21.0
+matplotlib==3.7.5
+pandas==2.0.3
+Pillow==12.2.0

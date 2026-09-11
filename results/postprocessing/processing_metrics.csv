@@ -1,0 +1,3 @@
+video,frame,base_area,refined_area,added_area,removed_area,net_area_change,area_growth_ratio,base_components,refined_components,base_dice,refined_dice
+v09,00043.png,8288,8305,19,2,17,0.002051158301158301,6,4,0.771786,0.772830
+v11,00036.png,8473,8491,18,0,18,0.0021243951374955742,3,2,0.786221,0.786713

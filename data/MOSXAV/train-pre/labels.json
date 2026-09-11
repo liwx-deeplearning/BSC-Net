@@ -1,0 +1,22 @@
+{
+    "semantic_label": [
+        {
+            "name": "background",
+            "classid": 0,
+            "RGB": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "name": "vessel",
+            "classid": 1,
+            "RGB": [
+                85,
+                170,
+                255
+            ]
+        }
+    ]
+}

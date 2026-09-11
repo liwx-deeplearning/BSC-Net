@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-09-10T22:58:43",
+  "source": "numeric centerline-diameter profiles and normalized time-intensity curves",
+  "layout": "top row: structural diameter profiles; bottom row: dynamic TICs",
+  "cases": [
+    "V09",
+    "V11"
+  ],
+  "outputs": {
+    "svg": "Fig_panel_c_combined.svg",
+    "pdf": "Fig_panel_c_combined.pdf",
+    "png": "Fig_panel_c_combined.png",
+    "structural_csv": "panel_c_structural_data.csv",
+    "dynamic_csv": "panel_c_dynamic_data.csv"
+  }
+}
