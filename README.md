@@ -288,14 +288,21 @@ Running `python quantitative_analysis/generate_figures.py` without arguments reg
 
 ## Results
 
-### Packaged Checkpoint Verification
+### Segmentation Performance
 
-| Dataset | Test images | Global Dice | Global IoU | Sensitivity | Precision |
-| ------- | ----------: | ----------: | ---------: | ----------: | --------: |
-| MOSXAV  |          76 |      0.8028 |     0.6706 |      0.7990 |    0.8067 |
-| ICA_NJ  |         124 |      0.9007 |     0.8194 |      0.8971 |    0.9043 |
+| Dataset | Method  |                      IoU |                     Dice |    Sensitivity |                Precision |
+| ------- | ------- | -----------------------: | -----------------------: | -------------: | -----------------------: |
+| MOSXAV  | BSC-Net | **0.645 ± 0.115** | **0.778 ± 0.092** | 0.815 ± 0.121 | **0.767 ± 0.135** |
+| ICA_NJ  | BSC-Net | **0.830 ± 0.064** | **0.906 ± 0.043** | 0.905 ± 0.054 |           0.909 ± 0.057 |
 
-The summaries are included in `results/segmentation/mosxav/` and `results/segmentation/ica_nj/`. These verification values are aggregated from pixel counts over each complete test set; the paper results below are reported as the mean ± standard deviation over test images.
+### Progressive Ablation on MOSXAV
+
+| Small-vessel sampling | EIL | Swin |                        IoU |                       Dice |                Sensitivity |                  Precision |
+| :-------------------: | :-: | :--: | -------------------------: | -------------------------: | -------------------------: | -------------------------: |
+|          –          | – |  –  |           0.6014 ± 0.1185 |           0.7439 ± 0.0980 |           0.7889 ± 0.1237 |           0.7219 ± 0.1333 |
+|          ✓          | – |  –  |           0.6162 ± 0.1168 |           0.7558 ± 0.0935 | **0.8315 ± 0.1075** |           0.7072 ± 0.1223 |
+|          ✓          | ✓ |  –  |           0.6307 ± 0.1209 |           0.7663 ± 0.0981 |           0.7843 ± 0.1173 |           0.7585 ± 0.1109 |
+|          ✓          | ✓ |  ✓  | **0.6453 ± 0.1148** | **0.7780 ± 0.0922** |           0.8150 ± 0.1212 | **0.7672 ± 0.1353** |
 
 ### Prediction and Postprocessing Results
 
@@ -318,22 +325,6 @@ The displayed frames were selected after rerunning BSC-Net and the revised repai
 | V11  |                                   13 |                  1 |                       13 |                                                25.41 |
 
 The corresponding PDF, editable SVG, plotting-source CSV files, QCA-style anatomical metrics, and image-derived contrast-propagation metrics are provided under `results/quantitative_analysis/`. The`morphology/` and `hemodynamics/` folders contain code-generated per-case results and summaries.
-
-### Segmentation Performance
-
-| Dataset | Method  |                      IoU |                     Dice |    Sensitivity |                Precision |
-| ------- | ------- | -----------------------: | -----------------------: | -------------: | -----------------------: |
-| MOSXAV  | BSC-Net | **0.645 ± 0.115** | **0.778 ± 0.092** | 0.815 ± 0.121 | **0.767 ± 0.135** |
-| ICA_NJ  | BSC-Net | **0.830 ± 0.064** | **0.906 ± 0.043** | 0.905 ± 0.054 |           0.909 ± 0.057 |
-
-### Progressive Ablation on MOSXAV
-
-| Small-vessel sampling | EIL | Swin |                        IoU |                       Dice |                Sensitivity |                  Precision |
-| :-------------------: | :-: | :--: | -------------------------: | -------------------------: | -------------------------: | -------------------------: |
-|          –          | – |  –  |           0.6014 ± 0.1185 |           0.7439 ± 0.0980 |           0.7889 ± 0.1237 |           0.7219 ± 0.1333 |
-|          ✓          | – |  –  |           0.6162 ± 0.1168 |           0.7558 ± 0.0935 | **0.8315 ± 0.1075** |           0.7072 ± 0.1223 |
-|          ✓          | ✓ |  –  |           0.6307 ± 0.1209 |           0.7663 ± 0.0981 |           0.7843 ± 0.1173 |           0.7585 ± 0.1109 |
-|          ✓          | ✓ |  ✓  | **0.6453 ± 0.1148** | **0.7780 ± 0.0922** |           0.8150 ± 0.1212 | **0.7672 ± 0.1353** |
 
 ## Citation
 
