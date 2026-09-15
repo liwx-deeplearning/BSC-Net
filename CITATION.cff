@@ -1,7 +1,11 @@
 cff-version: 1.2.0
-message: "If you use BSC-Net, please cite the associated preprint manuscript."
+
+message: "If you use BSC-Net, please cite the associated arXiv preprint."
+
 title: "BSC-Net: A Small-Branch-Sensitive Structural Continuity Network for Coronary Vessel Segmentation and Quantitative Angiographic Analysis"
+
 type: software
+
 authors:
   - family-names: Li
     given-names: Wanxian
@@ -17,5 +21,29 @@ authors:
     given-names: Liman
   - family-names: He
     given-names: Hao
+
 date-released: 2026-09-08
 license: MIT
+
+preferred-citation:
+  type: article
+  title: "BSC-Net: A Small-Branch-Sensitive Structural Continuity Network for Coronary Vessel Segmentation and Quantitative Angiographic Analysis"
+  authors:
+    - family-names: Li
+      given-names: Wanxian
+    - family-names: Qin
+      given-names: Jiaqian
+    - family-names: Xian
+      given-names: Qingyi
+    - family-names: Li
+      given-names: Yazhi
+    - family-names: Chen
+      given-names: Song
+    - family-names: Li
+      given-names: Liman
+    - family-names: He
+      given-names: Hao
+  journal: "arXiv"
+  year: 2026
+  doi: "10.48550/arXiv.2609.15400"
+  url: "https://arxiv.org/abs/2609.15400"
