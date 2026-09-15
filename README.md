@@ -1,6 +1,6 @@
 # BSC-Net: A Small-Branch-Sensitive Structural Continuity Network for Coronary Vessel Segmentation and Quantitative Angiographic Analysis
 
-📄 **Paper:** [BSC-Net: A Small-Branch-Sensitive Structural Continuity Network for Coronary Vessel Segmentation and Quantitative Angiographic Analysis](https://arxiv.org/abs/2609.15400)
+📄 **Paper:** [arXiv:2609.15400](https://arxiv.org/abs/2609.15400)
 
 ## Overview
 
@@ -336,8 +336,10 @@ The corresponding PDF, editable SVG, plotting-source CSV files, QCA-style anatom
 @article{li2026bscnet,
   title   = {BSC-Net: A Small-Branch-Sensitive Structural Continuity Network for Coronary Vessel Segmentation and Quantitative Angiographic Analysis},
   author  = {Li, Wanxian and Qin, Jiaqian and Xian, Qingyi and Li, Yazhi and Chen, Song and Li, Liman and He, Hao},
-  note    = {Preprint manuscript},
-  year    = {2026}
+  journal = {arXiv preprint arXiv:2609.15400},
+  year    = {2026},
+  doi     = {10.48550/arXiv.2609.15400},
+  url     = {https://arxiv.org/abs/2609.15400}
 }
 ```
 
